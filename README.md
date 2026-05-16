@@ -17,6 +17,10 @@ The goal of this project is to create a simple analytics pipeline using layered 
 - SQL
 - VS Code
 
+### Pipeline Flow
+
+S3 → Snowpipe → Bronze → dbt Transformations → Silver → Gold → Streamlit Dashboard
+
 ## Project Structure
 
 models/
